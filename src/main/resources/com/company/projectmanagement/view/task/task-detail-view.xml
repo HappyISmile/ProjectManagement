@@ -37,11 +37,12 @@
             </comboBox>
             <textField id="estimationField" property="estimation"/>
             <textArea id="descriptionField" property="description" height="10em" valueChangeMode="EAGER"/>
+            <fileStorageUploadField id="attachmentField" property="attachment" clearButtonVisible="true"
+                                    fileNameVisible="true" uploadIcon="UPLOAD" maxFileSize="10000000"/>
         </formLayout>
         <hbox>
             <button id="saveAndCloseBtn" action="detailSaveClose"/>
             <button id="closeBtn" action="detailClose"/>
-
         </hbox>
     </layout>
 </view>
